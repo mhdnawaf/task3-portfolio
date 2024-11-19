@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    display: inline-block;
+    color: #ff4238;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #329bf7, #fd3508);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background: #fff;
+    color: #333;
+    padding: 0.8rem 2rem;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 0;
+    background: #dce61e7b;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects {
+    padding: 4rem 0;
+}
+
+.projects .project-card {
+    background: #b986b018;
+    border: 1px solid #dddddd13;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(31, 0, 205, 0.966);
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 0;
+    background: #a39b9b4e;
+    text-align: center;
+}
+
+.contact a {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #03d2f6c1;
+    color: #0f0d0d;
+    text-align: center;
+    padding: 1rem 0;
+}
